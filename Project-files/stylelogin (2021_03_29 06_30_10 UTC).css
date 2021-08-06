@@ -1,0 +1,156 @@
+     body {
+            margin: 0;
+            padding: 0;
+            background-image: url("pexels-chris-goodwin-32870.jpg");
+            background-size: cover;
+        }
+        
+        .header{
+            width: 100%;
+            height: 70px;
+            display: block;
+            background-color: steelblue;
+            position: fixed;
+        }
+        .innerheader{
+            width: 500px;
+            margin: 0 auto;
+            height: 100%;
+            display: block;
+            background-color: steelblue;
+            
+        }
+        .cont{
+            height: 100%;
+            display: table;
+            float: middle;
+          
+        }
+        .cont h1{
+            height: 100%;
+            margin: 0 auto;
+            display: table-cell;
+            vertical-align: middle;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 32px;
+            
+        }
+
+        .loginbox form[id=form1] {
+            display: block;
+            width: 300px;
+            height: auto;
+            background-color: Black;
+            color: White;
+            top: 60%;
+            left: 50%;
+            position: absolute;
+            box-sizing: border-box;
+            transform: translate(-50%, -50%);
+            padding: 10px 30px;
+            background:linear-gradient() ;
+            border-style: solid;
+        }
+        
+        .loginbox form[id=form2] {
+            display: block;
+            width: 300px;
+            height: auto;
+            background-color: Black;
+            color: White;
+            top: 70%;
+            left: 50%;
+            position: absolute;
+            box-sizing: border-box;
+            transform: translate(-50%, -50%);
+            padding: 10px 30px;
+            background:linear-gradient() ;
+            border-style: solid;
+        }
+        
+        .loginbox p {
+            margin: 0;
+            width: auto;
+            margin-bottom: 5px;
+            padding: 0,5px;
+            font-weight: bolder;
+            position: center;
+            background-color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .loginbox h2,
+        h3 {
+            text-align: center;
+            text-decoration: bolder;
+            padding: 0 0 20px;
+            margin: 0;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+
+        }
+        
+        .loginbox label[for="log"] {
+            margin: 0 auto;
+            position: relative;
+            width: 100%;
+            font-weight: bolder;
+
+        }
+            .loginbox label[for="buyer"] {
+                margin-bottom: 8px;
+                font-weight:bolder;
+                position: left;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        /*h1 {
+            margin: auto;
+            text-align: center;
+            font-size: 30px;
+            text-decoration: bold;
+        }*/
+        
+        .loginbox input[type="text"],
+        [type="password"] {
+            width: 100%;
+            margin-bottom: 20px;
+            border: black;
+            border-bottom: 1px solid #fff;
+            background: white;
+            outline: none;
+            height: 20px;
+            color:black;
+            font-size: 15px;
+        }
+        
+        .loginbox input[type="submit"] {
+            margin: 10% 30%;
+            border: none;
+            width: 40%;
+            padding: 0;
+            background: SteelBlue;
+            font-size: 20px;
+            position: relative;
+            color: White;
+            border-radius: 20px;
+        }
+        
+        .loginbox input[type="submit"]:hover {
+            cursor: pointer;
+            background: Orange;
+            color: Black;
+        }
+        
+        .loginbox a {
+            text-decoration: underline;
+            color: white;
+            text-decoration: bold;
+
+        }
+        
+        .loginbox a:hover {
+            cursor: pointer;
+            color: Orange;
+        }
