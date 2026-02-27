@@ -8,19 +8,19 @@ A web-based real estate platform built with PHP and MySQL that connects property
 
 ## Features
 
-### 👤 Authentication
+### Authentication
 - User registration (Sign Up) with name, username, password, email, and phone
 - Login with role selection — **Seller** or **Buyer**
 - Session-based authentication with protected routes
 - Logout functionality
 
-### 🏡 Seller
+### Seller
 - Add new property listings with full details (type, contract, location, price, area)
 - View all personal property listings
 - Edit and update existing property details
 - Delete property listings
 
-### 🔍 Buyer
+### Buyer
 - Search and filter properties by:
   - Property type (Land / Residential / Commercial)
   - Contract type (For Sale / Lease/Rent)
